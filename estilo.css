@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 body{
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
 }
 
 main{
+    font-family: 'Outfit', sans-serif;
     background-color: hsl(0, 0%, 100%); 
     width: 420px;
-    margin: auto;
     margin-top: 70px;
     border-radius: 10px;
 }
@@ -17,7 +21,6 @@ main{
 
 .container h1{
     color: hsl(218, 44%, 22%);
-    margin: 0   ;
 }
 
 .container p{
@@ -30,6 +33,3 @@ img{
     margin: 25px 25px 25px 25px;
 }
 
-div{
-    padding-bottom: 10px;
-}
